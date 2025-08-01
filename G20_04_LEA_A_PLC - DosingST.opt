@@ -126,10 +126,11 @@ BEGIN
  Bar[5]:=
  BEGIN
   BarID:=59413;
+  Visible:=0;
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 730";
+  MRUDockPos:="0 -2 300 534";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -139,7 +140,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 732";
+  MRUVertDock:="300 536";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -179,41 +180,13 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=334;
- Item[3]:=335;
+ Item[2]:=367;
+ Item[3]:=368;
  ItemCount:=4;
- Sumcheck:=484;
- Selected:=341;
+ Sumcheck:=517;
+ Selected:=374;
 END;
 Frame[0]:=
-BEGIN
- Norm:="0000 0000 0992 0492";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.General_Functions!General_Functions";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0104 0104 1178 0491";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Errors_Control!Errors_Control";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
 BEGIN
  Norm:="0052 0052 1048 0548";
  Min:="-001 -001";
@@ -224,6 +197,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=1434;
    Mag:=1;
    Extra:=
    BEGIN
@@ -237,9 +211,38 @@ BEGIN
     Width[4]:=111;
     Width[5]:=48;
     Width[6]:=200;
-    SortCol:=5;
-    SortAscending:=false;
+    SortCol:=2;
    END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[1]:=
+BEGIN
+ Norm:="0000 0000 0992 0492";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.General_Functions!General_Functions";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=8;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0104 0104 1178 0491";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Errors_Control!Errors_Control";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=17;
   END;
   nViews:=1;
  END;
@@ -254,6 +257,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=64;
   END;
   nViews:=1;
  END;
