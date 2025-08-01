@@ -54,7 +54,7 @@ BEGIN
   Visible:=0;
   Pos:="1 5";
   Docking:=1;
-  MRUDockID:=59422;
+  MRUDockID:=0;
   MRUDockPos:="1 5 1536 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
@@ -126,11 +126,10 @@ BEGIN
  Bar[5]:=
  BEGIN
   BarID:=59413;
-  Visible:=0;
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 534";
+  MRUDockPos:="0 -2 300 730";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -140,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 536";
+  MRUVertDock:="300 732";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -152,10 +151,10 @@ BEGIN
  BEGIN
   BarID:=59415;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="0 0";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 766 185";
+  MRUDockPos:="0 0 605941 26280128";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -164,7 +163,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="765 180";
+  MRUHorzDock:="300 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -180,13 +179,41 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=367;
- Item[3]:=368;
+ Item[2]:=334;
+ Item[3]:=335;
  ItemCount:=4;
- Sumcheck:=517;
- Selected:=374;
+ Sumcheck:=484;
+ Selected:=340;
 END;
 Frame[0]:=
+BEGIN
+ Norm:="0000 0000 0992 0492";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.General_Functions!General_Functions";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[1]:=
+BEGIN
+ Norm:="0104 0104 1178 0491";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Errors_Control!Errors_Control";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
 BEGIN
  Norm:="0052 0052 1048 0548";
  Min:="-001 -001";
@@ -197,7 +224,6 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=1434;
    Mag:=1;
    Extra:=
    BEGIN
@@ -211,60 +237,15 @@ BEGIN
     Width[4]:=111;
     Width[5]:=48;
     Width[6]:=200;
-    SortCol:=2;
+    SortCol:=5;
+    SortAscending:=false;
    END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0000 0000 0992 0492";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.General_Functions!General_Functions";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=8;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0104 0104 1178 0491";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Errors_Control!Errors_Control";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=17;
   END;
   nViews:=1;
  END;
 END;
 Frame[3]:=
 BEGIN
- Norm:="0026 0026 1022 0522";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Inputs_Mapping!Inputs_Mapping";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=64;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Max:=true;
  Norm:="0078 0078 1074 0574";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Outputs_Mapping!Outputs_Mapping";
@@ -273,6 +254,23 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=30;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Max:=true;
+ Norm:="0026 0026 1022 0522";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Inputs_Mapping!Inputs_Mapping";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=29;
   END;
   nViews:=1;
  END;
