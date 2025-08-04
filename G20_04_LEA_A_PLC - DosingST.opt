@@ -51,20 +51,19 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Visible:=0;
-  Pos:="1 5";
+  Pos:="772 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1536 185";
+  MRUDockPos:="772 5 1536 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1535 180";
+  MRUHorzDock:="764 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -129,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 730";
+  MRUDockPos:="0 -2 300 543";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -139,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 732";
+  MRUVertDock:="300 545";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -150,20 +149,19 @@ BEGIN
  Bar[6]:=
  BEGIN
   BarID:=59415;
-  Visible:=0;
-  Pos:="0 0";
+  Pos:="1 5";
   Docking:=1;
-  MRUDockID:=0;
-  MRUDockPos:="0 0 605941 26280128";
+  MRUDockID:=59422;
+  MRUDockPos:="1 5 766 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 180";
+  MRUHorzDock:="765 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -181,15 +179,17 @@ BEGIN
  Item[1]:=2;
  Item[2]:=334;
  Item[3]:=335;
- ItemCount:=4;
- Sumcheck:=484;
- Selected:=340;
+ Item[4]:=344;
+ Item[5]:=355;
+ ItemCount:=6;
+ Sumcheck:=476;
+ Selected:=351;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0000 0000 0992 0492";
+ Norm:="0052 0052 1126 0439";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.General_Functions!General_Functions";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.Scanner.Sections.Section1!Section1";
  Type:=1;
  Views:=
  BEGIN
@@ -201,7 +201,7 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
- Norm:="0104 0104 1178 0491";
+ Norm:="0130 0130 1204 0517";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Errors_Control!Errors_Control";
  Type:=1;
@@ -209,44 +209,44 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=13;
   END;
   nViews:=1;
  END;
 END;
 Frame[2]:=
 BEGIN
- Norm:="0052 0052 1048 0548";
+ Norm:="0104 0104 1178 0491";
  Min:="-001 -001";
- Path:="D:\Projects\Other Kind\IDEB Lear\Ideb-Lear-Machine\G20_04_LEA_A_PLC - DosingST.cxp";
- Access:="PROJECT:!NewProject.Resources.FB source program.Symbols";
- Type:=3;
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.General_Functions!General_Functions";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=286;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=84;
-    Width[4]:=111;
-    Width[5]:=48;
-    Width[6]:=200;
-    SortCol:=5;
-    SortAscending:=false;
-   END;
   END;
   nViews:=1;
  END;
 END;
 Frame[3]:=
 BEGIN
- Norm:="0078 0078 1074 0574";
+ Norm:="0156 0156 1230 0543";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dosing.Sections.ROBOT1_Control!ROBOT1_Control";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=121;
+   Mag:=154;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Norm:="0078 0078 1152 0465";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Outputs_Mapping!Outputs_Mapping";
  Type:=1;
@@ -254,28 +254,75 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=30;
+   Yscroll:=21;
   END;
   nViews:=1;
  END;
 END;
-Frame[4]:=
+Frame[5]:=
 BEGIN
- Max:=true;
- Norm:="0026 0026 1022 0522";
+ Norm:="0104 0104 1174 0487";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Inputs_Mapping!Inputs_Mapping";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dosing.Sections.StaF_RFIDTurck!StaF_RFIDTurck";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=29;
+   Yscroll:=105;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=5;
+Frame[6]:=
+BEGIN
+ Norm:="0000 0000 1074 0387";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dosing.Sections.StaF_Auto_Sequence!StaF_Auto_Sequence";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=13;
+   Mag:=154;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[7]:=
+BEGIN
+ Norm:="0052 0052 1126 0439";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dosing.Sections.StaF_Control_Blocks!StaF_Control_Blocks";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=26;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[8]:=
+BEGIN
+ Max:=true;
+ Norm:="0026 0026 1100 0413";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dosing.Sections.ROBOT1_Start!ROBOT1_Start";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=97;
+   Mag:=154;
+  END;
+  nViews:=1;
+ END;
+END;
+nFrames:=9;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
