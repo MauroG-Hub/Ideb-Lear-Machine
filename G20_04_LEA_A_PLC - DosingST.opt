@@ -6,10 +6,10 @@ BEGIN
   BarID:=59422;
   Bars:=6;
   Bar[0]:=0;
-  Bar[1]:=59415;
-  Bar[2]:=59416;
-  Bar[3]:=59412;
-  Bar[4]:=59414;
+  Bar[1]:=59414;
+  Bar[2]:=59415;
+  Bar[3]:=59416;
+  Bar[4]:=59412;
   Bar[5]:=0;
   Style:=0;
   ExStyle:=0;
@@ -51,10 +51,11 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="772 5";
+  Visible:=0;
+  Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="772 5 1536 185";
+  MRUDockPos:="1 5 766 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -63,7 +64,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="764 180";
+  MRUHorzDock:="765 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -88,7 +89,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="564 180";
+  MRUHorzDock:="564 153";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -113,7 +114,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="565 180";
+  MRUHorzDock:="565 153";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,7 +128,7 @@ BEGIN
   BarID:=59413;
   Pos:="0 -2";
   Docking:=1;
-  MRUDockID:=0;
+  MRUDockID:=59420;
   MRUDockPos:="0 -2 300 543";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
@@ -152,16 +153,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 766 185";
+  MRUDockPos:="1 5 1536 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="500000";
+  PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="765 180";
+  MRUHorzDock:="1535 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -177,79 +178,16 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=334;
- Item[3]:=335;
- Item[4]:=344;
+ Item[2]:=337;
+ Item[3]:=338;
+ Item[4]:=347;
  ItemCount:=5;
- Sumcheck:=476;
- Selected:=349;
+ Sumcheck:=479;
+ Selected:=352;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0078 0078 1152 0465";
- Min:="-001 -001";
- Path:="D:\Projects\Other Kind\IDEB Lear\Ideb-Lear-Machine\G20_04_LEA_A_PLC - DosingST.cxp";
- Access:="PROJECT:!NewProject.Resources.FB source program";
- Type:=6;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
  Norm:="0156 0156 1230 0543";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dispenser!StaF_Dispenser.Symbols";
- Type:=3;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=81;
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-    SortCol:=2;
-   END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0156 0156 1230 0543";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dispenser.Sections.ROBOT1_Control!ROBOT1_Control";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Xscroll:=1;
-   Yscroll:=158;
-   Mag:=154;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0052 0052 1126 0439";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dispenser.Sections.StaF_Control_Blocks!StaF_Control_Blocks";
  Type:=1;
@@ -257,75 +195,30 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=38;
+   Yscroll:=22;
   END;
   nViews:=1;
  END;
 END;
-Frame[4]:=
-BEGIN
- Norm:="0130 0130 1204 0517";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Errors_Control!Errors_Control";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0104 0104 1178 0491";
- Min:="-001 -001";
- Path:="D:\Projects\Other Kind\IDEB Lear\Ideb-Lear-Machine\G20_04_LEA_A_PLC - DosingST.cxp";
- Access:="PROJECT:!NewProject.Resources.FB source program.Symbols";
- Type:=3;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=1239;
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=84;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-    SortCol:=2;
-   END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
+Frame[1]:=
 BEGIN
  Norm:="0078 0078 1152 0465";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.General_Functions!General_Functions";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.General.Sections.Inputs_Mapping!Inputs_Mapping";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=63;
+   Yscroll:=61;
   END;
   nViews:=1;
  END;
 END;
-Frame[7]:=
+Frame[2]:=
 BEGIN
  Max:=true;
- Norm:="0000 0000 1074 0387";
+ Norm:="0130 0130 1200 0513";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.FB source program.Programs.StaF_Dispenser.Sections.StaF_Auto_Sequence!StaF_Auto_Sequence";
  Type:=1;
@@ -333,12 +226,12 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=1;
+   Yscroll:=258;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=8;
+nFrames:=3;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
